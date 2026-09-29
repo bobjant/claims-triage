@@ -1,0 +1,4 @@
+[
+  {"claim_id": "C-2029", "policy_number": "POL-6120", "claim_type": "wind_hail", "loss_date": "2026-02-03", "report_date": "2026-02-05", "claim_amount": 1200, "description": "Storm blew tiles off porch roof"},
+  {"claim_id": "C-2032", "policy_number": "POL-5521", "claim_type": "water_damage", "loss_date": "2026-02-10", "report_date": "2026-02-12", "claim_amount": 4200, "description": "Basement flooding"}
+]

@@ -1,0 +1,31 @@
+Claims Triage Assistant - automated test results
+Run: 2026-09-29 09:36 IST  |  Python 3.9.6  |  Darwin arm64
+Command: .venv/bin/python3 -m pytest -v
+
+============================= test session starts ==============================
+platform darwin -- Python 3.9.6, pytest-8.4.2, pluggy-1.6.0 -- /Users/bobjan/Projects/claims-triage/.venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /Users/bobjan/Projects/claims-triage
+plugins: anyio-4.12.1
+collecting ... collected 18 items
+
+tests/test_foundry_runtime.py::test_function_calling_loop_submits_tool_outputs PASSED [  5%]
+tests/test_foundry_runtime.py::test_run_timeout_cancels_and_raises PASSED [ 11%]
+tests/test_routine.py::test_long_term_memory_changes_the_outcome PASSED  [ 16%]
+tests/test_routine.py::test_routine_transitions_are_legal_and_logged PASSED [ 22%]
+tests/test_routine.py::test_faults_are_survived PASSED                   [ 27%]
+tests/test_routine.py::test_unreadable_file_aborts_cleanly PASSED        [ 33%]
+tests/test_routine.py::test_multi_turn_supervisor_resolves_references PASSED [ 38%]
+tests/test_routine.py::test_extended_batch_outcomes PASSED               [ 44%]
+tests/test_routine.py::test_triage_specific_claims_by_id PASSED          [ 50%]
+tests/test_routine.py::test_invented_path_falls_back_to_claim_ids PASSED [ 55%]
+tests/test_skills_and_rules.py::test_rule_files_parse PASSED             [ 61%]
+tests/test_skills_and_rules.py::test_condition_evaluator_is_safe PASSED  [ 66%]
+tests/test_skills_and_rules.py::test_id_normalisation PASSED             [ 72%]
+tests/test_skills_and_rules.py::test_validation_flags_expected_issues PASSED [ 77%]
+tests/test_skills_and_rules.py::test_messy_csv_is_tolerated PASSED       [ 83%]
+tests/test_skills_and_rules.py::test_parse_json_ignores_file_search_citations PASSED [ 88%]
+tests/test_skills_and_rules.py::test_tool_argument_schema_enforced PASSED [ 94%]
+tests/test_skills_and_rules.py::test_guardrail_catches_hallucination_miss_and_downgrade PASSED [100%]
+
+============================== 18 passed in 0.82s ==============================

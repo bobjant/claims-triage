@@ -1,0 +1,7 @@
+claim_id,policy_number,claim_type,loss_date,report_date,claim_amount,description
+C-2040,POL-7730,theft,2026-09-01,2026-09-02,950,Bicycle stolen from garage
+C-2041,POL-6120,water_damage,2026-08-20,2026-08-22,12k,Dishwasher leak damaged flooring
+C-2042,POL-5521,fire,2026/08/40,2026-08-28,3000,Electrical fire in garage
+C-2043,POL-7730,vandalism,2026-09-05
+c2044,pol-9981,theft,2026-09-10,2026-09-11,700,Laptop stolen from car
+C-2045,POL-6120,theft,2026-09-12,2026-09-12,400,Tools stolen from shed,UNEXPECTED_EXTRA_COLUMN

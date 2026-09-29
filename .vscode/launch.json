@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name": "1 · Run 1: triage Feb batch (seeds memory)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py",
+     "args": ["triage", "data/batches/2026-02_batch.json", "--as-of", "2026-02-20", "--session", "demo-feb", "--yes"], "console": "integratedTerminal"},
+    {"name": "2 · Chat (supervisor, multi-turn)", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py",
+     "args": ["chat", "--session", "demo"], "console": "integratedTerminal"},
+    {"name": "3 · Triage with injected faults", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py",
+     "args": ["triage", "data/samples/claims_sample_original.json", "--session", "demo-chaos", "--yes",
+              "--fault", "bad_json", "--fault", "hallucination", "--fault", "agent_timeout", "--fault", "tool_timeout"], "console": "integratedTerminal"},
+    {"name": "4 · Triage messy CSV", "type": "debugpy", "request": "launch", "program": "${workspaceFolder}/main.py",
+     "args": ["triage", "data/samples/claims_messy.csv", "--session", "demo-csv", "--yes"], "console": "integratedTerminal"},
+    {"name": "Tests", "type": "debugpy", "request": "launch", "module": "pytest", "args": ["-q"], "console": "integratedTerminal"}
+  ]
+}

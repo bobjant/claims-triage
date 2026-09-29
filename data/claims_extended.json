@@ -1,0 +1,15 @@
+[
+  {"claim_id": "C-1001", "policy_number": "POL-1101", "claim_type": "water_damage", "loss_date": "2026-01-12", "report_date": "2026-01-13", "claim_amount": 2400, "description": "Washing machine hose burst in laundry room"},
+  {"claim_id": "C-1002", "policy_number": "POL-1101", "claim_type": "wind_hail", "loss_date": "2026-03-20", "report_date": "2026-03-21", "claim_amount": 3100, "description": "Hail dented gutters and cracked a skylight"},
+  {"claim_id": "C-1003", "policy_number": "POL-1101", "claim_type": "vandalism", "loss_date": "2026-05-02", "report_date": "2026-05-03", "claim_amount": 1500, "description": "Mailbox and garden lights smashed overnight"},
+  {"claim_id": "C-1004", "policy_number": "POL-1101", "claim_type": "water_damage", "loss_date": "2026-07-18", "report_date": "2026-07-19", "claim_amount": 6800, "description": "Water heater leak soaked hallway carpet"},
+  {"claim_id": "C-1005", "policy_number": "POL-1102", "claim_type": "fire", "loss_date": "2026-05-10", "report_date": "2026-05-12", "claim_amount": 7200, "description": "Barbecue fire scorched rear deck"},
+  {"claim_id": "C-1006", "policy_number": "POL-1103", "claim_type": "fire", "loss_date": "2026-08-02", "report_date": "2026-08-04", "claim_amount": 18000, "description": "Garage fire destroyed tools and workbench"},
+  {"claim_id": "C-1007", "policy_number": "POL-1104", "claim_type": "theft", "loss_date": "2026-08-22", "report_date": "2026-08-22", "claim_amount": 4000, "description": "Diamond necklace stolen during break-in"},
+  {"claim_id": "C-1008", "policy_number": "POL-1104", "claim_type": "earthquake", "loss_date": "2026-06-14", "report_date": "2026-06-16", "claim_amount": 9000, "description": "Earthquake cracked basement foundation wall"},
+  {"claim_id": "C-1009", "policy_number": "POL-1103", "claim_type": "wind_hail", "loss_date": "2026-08-30", "report_date": "2026-09-01", "claim_amount": 5000, "description": "Fallen tree branch damaged roof"},
+  {"claim_id": "C-1010", "policy_number": "POL-1104", "claim_type": "water_damage", "loss_date": "2026-04-05", "report_date": "2026-06-20", "claim_amount": 3300, "description": "Leak under kitchen sink found during renovation"},
+  {"claim_id": "C-1011", "policy_number": "POL-1101", "claim_type": "fire", "loss_date": "2027-01-10", "report_date": "2027-01-15", "claim_amount": 2600, "description": "Chimney fire damaged living room"},
+  {"claim_id": "C-1012", "policy_number": "PL-1103", "claim_type": "theft", "loss_date": "2026-09-08", "report_date": "2026-09-09", "claim_amount": 700, "description": "Bicycle taken from front porch"},
+  {"claim_id": "C-1013", "policy_number": "POL-1103", "claim_type": "smoke", "loss_date": "2026-09-05", "report_date": "2026-09-06", "claim_amount": 850, "description": ""}
+]

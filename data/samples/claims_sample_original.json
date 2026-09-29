@@ -1,0 +1,6 @@
+[
+  {"claim_id": "C-2031", "policy_number": "POL-5521", "claim_type": "water_damage", "loss_date": "2026-08-15", "report_date": "2026-08-16", "claim_amount": 8500, "description": "Pipe burst in kitchen"},
+  {"claim_id": "C-2032", "policy_number": "POL-5521", "claim_type": "water_damage", "loss_date": "2026-02-10", "report_date": "2026-02-12", "claim_amount": 4200, "description": "Basement flooding"},
+  {"claim_id": "C-2033", "policy_number": "POL-9981", "claim_type": "theft", "loss_date": "2026-08-30", "report_date": "2026-08-30", "claim_amount": 25000, "description": "Jewelry theft, filed 3 days after policy start"},
+  {"claim_id": "C-2034", "policy_number": "POL-4410", "claim_type": "fire", "loss_date": "", "report_date": "2026-08-20", "claim_amount": 0, "description": "Missing loss date and amount - flag"}
+]

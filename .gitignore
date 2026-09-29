@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.env
+.sessions/
+.foundry_state.json
+logs/
+reports/
+data/memory/*.corrupt.json
+
+# runtime state (created automatically; a fresh clone starts with empty memory)
+data/memory/*.json
+.DS_Store
